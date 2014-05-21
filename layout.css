@@ -84,3 +84,26 @@ body{
 	left: 430px;
 	top: 426px;
 }
+
+/* ====== 左欄區 ====== */
+#slidebar1{
+	width:350px;
+	float:left;
+}
+
+/* ====== 內容區 ====== */
+#content{
+	width:280px;
+	float:left;
+}
+
+/* ====== 右欄區 ====== */
+#slidebar2{
+	width:350px;
+	float:right;
+}
+
+/* ====== 版權宣告區 ====== */
+#footer{
+	clear:both;
+}
