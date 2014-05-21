@@ -87,8 +87,15 @@ body{
 
 /* ====== 左欄區 ====== */
 #slidebar1{
-	width:350px;
+	width:330px;
 	float:left;
+	padding-left:20px;
+}
+#slidebar1 h4{
+	background-image:url(images/sidebar1_notebook.png);
+	width:315px;
+	height:230px;
+	text-indent:-9999px;
 }
 
 /* ====== 內容區 ====== */
