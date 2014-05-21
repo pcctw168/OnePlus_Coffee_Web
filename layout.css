@@ -132,8 +132,29 @@ body{
 
 /* ====== 右欄區 ====== */
 #slidebar2{
-	width:350px;
+	width:340px;
 	float:right;
+	padding-left:10px;
+}
+#slidebar2 h4{
+	background-image:url(images/sidebar2_sale.png);
+	width:320px;
+	height:110px;
+	text-indent:-9999px;
+}
+#slidebar2 ul{
+	overflow:auto;
+	border-left:#600 1px solid;
+	margin-left:20px;
+}
+#slidebar2 li{
+	float:left;
+	list-style-type:none;
+	background-image:url(images/sidebar2_coupon.png);
+	width:90px;
+	height:90px;
+	text-indent:-9999px;
+	border-right:#600 1px solid;
 }
 
 /* ====== 版權宣告區 ====== */
