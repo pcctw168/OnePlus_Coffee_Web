@@ -169,4 +169,18 @@ body{
 /* ====== 版權宣告區 ====== */
 #footer{
 	clear:both;
+	height:50px;
+}
+#footer h2{
+	background-image:url(images/footer_logo.png);
+	width:140px;
+	height:40px;
+	text-indent:-9999px;
+	float:right;
+}
+#footer h4{
+	font-size:12px;
+	color:#FFF;
+	text-align:right;
+	font-weight:normal;
 }
