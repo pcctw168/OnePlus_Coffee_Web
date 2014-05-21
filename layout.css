@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* IE PNG Fix */
+h1,h2,h3,h4,li{ behavior: url(/css/resources/iepngfix.htc) }
+
 *{
 	padding:0;
 	margin:0;
@@ -146,6 +149,8 @@ body{
 	overflow:auto;
 	border-left:#600 1px solid;
 	margin-left:20px;
+	/* ====== IE6 Hank ====== */
+	_height:1%;
 }
 #slidebar2 li{
 	float:left;
