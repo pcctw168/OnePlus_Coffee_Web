@@ -150,11 +150,20 @@ body{
 #slidebar2 li{
 	float:left;
 	list-style-type:none;
-	background-image:url(images/sidebar2_coupon.png);
+	
 	width:90px;
 	height:90px;
 	text-indent:-9999px;
 	border-right:#600 1px solid;
+}
+#slidebar2 li.coupon{
+	background-image:url(images/sidebar2_coupon.png);
+}
+#slidebar2 li.member{
+	background-image:url(images/sidebar2_membership.png);
+}
+#slidebar2 li.free{
+	background-image:url(images/sidebar2_freedelivery.png);
 }
 
 /* ====== 版權宣告區 ====== */
