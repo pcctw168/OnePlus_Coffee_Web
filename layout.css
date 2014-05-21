@@ -74,15 +74,15 @@ body{
 	height: 90px;
 	text-indent: -9999px;
 	position: absolute;
-	left: 434px;
-	top: 337px;
+	left: 430px;
+	top: 300px;
 }
 #header p{
 	font-size: 12px;
 	width: 510px;
 	position: absolute;
-	left: 430px;
-	top: 426px;
+	left: 436px;
+	top: 400px;
 }
 
 /* ====== 左欄區 ====== */
@@ -102,6 +102,32 @@ body{
 #content{
 	width:280px;
 	float:left;
+}
+#content h2{
+	background-image:url(images/content_news.png);
+	width:240px;
+	height:36px;
+	text-indent:-9999px;
+}
+#content table{
+	width:100%;
+}
+#content table th{
+	background-image:url(images/content_arrow.gif);
+	background-repeat:no-repeat;
+	background-position:5px center;
+	padding-left:20px;
+	font-size:14px;
+	line-height:25px;
+	text-align:left;
+	font-weight:normal;
+	color:#ffff99;
+	border-bottom:#FFF 1px dashed;
+}
+#content table td{
+	color:#FFF;
+	font-size:12px;
+	border-bottom:#FFF 1px dashed;
 }
 
 /* ====== 右欄區 ====== */
