@@ -17,3 +17,70 @@ body{
 	margin:0 auto;
 	background-image:url(images/wrapper_bg.jpg);
 }
+
+/* ====== 標題區 ====== */
+#header{
+	background-image:url(images/header_bg.jpg);
+	height:450px;
+	padding-left:200px;
+	position:relative;
+}
+#header ul{}
+#header li{
+	float:left;
+	list-style-type:none;
+}
+#header li a{
+	display:block;
+	width:110px;
+	height:90px;
+	text-indent:-9999px;
+}
+#header li.aboutus a{
+	background-image:url(images/header_icon1_1.jpg);}
+#header li.aboutus a:hover{
+	background-image:url(images/header_icon1_2.jpg);
+}
+#header li.menu a{
+	background-image:url(images/header_icon2_1.jpg);}
+#header li.menu a:hover{
+	background-image:url(images/header_icon2_2.jpg);
+}
+#header li.reservation a{
+	background-image:url(images/header_icon3_1.jpg);}
+#header li.reservation a:hover{
+	background-image:url(images/header_icon3_2.jpg);
+}
+#header li.gallery a{
+	background-image:url(images/header_icon4_1.jpg);}
+#header li.gallery a:hover{
+	background-image:url(images/header_icon4_2.jpg);
+}
+#header li.contact a{
+	background-image:url(images/header_icon5_1.jpg);}
+#header li.contact a:hover{
+	background-image:url(images/header_icon5_2.jpg);
+}
+#header h1{
+	float:left;
+	background-image:url(images/header_logo.png);
+	width:220px;
+	height:90px;
+	text-indent:-9999px;
+}
+#header h2{
+	background-image: url(images/header_title.png);
+	width: 510px;
+	height: 90px;
+	text-indent: -9999px;
+	position: absolute;
+	left: 434px;
+	top: 337px;
+}
+#header p{
+	font-size: 12px;
+	width: 510px;
+	position: absolute;
+	left: 430px;
+	top: 426px;
+}
